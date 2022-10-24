@@ -1,8 +1,14 @@
+'''
+Author: WHURS-THC
+Date: 2022-10-21 20:37:07
+LastEditTime: 2022-10-22 14:47:55
+Description: 
+'''
 import cv2
 import numpy as np
 frameWidth = 640
 frameHeight = 480
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10,150)
